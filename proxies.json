@@ -1,14 +1,14 @@
 {
     "$schema": "http://json.schemastore.org/proxies",
     "proxies": {
-        "home": {
+        "sv": {
             "matchCondition": {
                 "route": "/sv/{*path}",
                 "methods": [
                     "GET"
                 ]
             },
-            "backendUri": "https://slobodnyvysielac.sk/{*path}"
+            "backendUri": "https://slobodnyvysielac.sk/{path}"
         }
     }
 }
