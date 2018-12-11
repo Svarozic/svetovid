@@ -3,12 +3,12 @@
     "proxies": {
         "home": {
             "matchCondition": {
-                "route": "/home",
+                "route": "/sv/{*path}",
                 "methods": [
                     "GET"
                 ]
             },
-            "backendUri": "https://slobodnyvysielac.sk"
+            "backendUri": "https://slobodnyvysielac.sk/{*path}"
         }
     }
 }
