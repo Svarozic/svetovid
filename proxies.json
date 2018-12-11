@@ -9,6 +9,15 @@
                 ]
             },
             "backendUri": "https://slobodnyvysielac.sk/{path}"
-        }
+        },
+        "sv2": {
+            "matchCondition": {
+                "route": "/sv2",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "backendUri": "https://slobodnyvysielac.sk"
+        },
     }
 }
