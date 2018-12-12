@@ -10,14 +10,32 @@
             },
             "backendUri": "https://slobodnyvysielac.sk/{path}"
         },
-        "sv2": {
+        "sc-aacQ24": {
             "matchCondition": {
-                "route": "/sv2",
+                "route": "/sc/aacQ24/{*path}",
                 "methods": [
                     "GET"
                 ]
             },
-            "backendUri": "https://slobodnyvysielac.sk"
+            "backendUri": "http://78.47.79.190:8006/{path}"
+        },
+        "sc-aacQ56": {
+            "matchCondition": {
+                "route": "/sc/aacQ56/{*path}",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "backendUri": "http://78.47.79.190:8002/{path}"
+        },
+        "sc-mp3Q128": {
+            "matchCondition": {
+                "route": "/sc/mp3Q128/{*path}",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "backendUri": "http://78.47.79.190:8004/{path}"
         }
     }
 }
